@@ -5,7 +5,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <windows.h>
-
+using namespace std;
 Game::Game() : timeLimit(60), filename("maze1.txt") {}
 
 Game::Game(int difficulty) {
@@ -29,14 +29,14 @@ Game::Game(int difficulty) {
     filename = files[index];
     timeLimit = 90 - index * 10;
     if (!maze.loadFromFile(filename.c_str())) {
-        std::cout << "Failed to load maze file.\n";
+        cout << "Failed to load maze file."<<endl;
         timeLimit = 0;
     }
 }
 
 void Game::run() {
     if (maze.getWidth() == 0 || maze.getHeight() == 0) {
-        std::cout << "Maze not loaded.\n";
+        cout << "Maze not loaded."<<endl;
         return;
     }
 
@@ -52,10 +52,10 @@ void Game::run() {
         int elapsed = static_cast<int>(now - start);
         int remaining = timeLimit - elapsed;
 
-        std::cout << "Time left: " << remaining << " seconds\n";
+        cout << "Time left: " << remaining << " seconds"<<endl;
 
         if (remaining <= 0) {
-            std::cout << "Time's up! You lose.\n";
+            cout << "Time's up! You lose."<<endl;
             break;
         }
 
@@ -69,16 +69,16 @@ void Game::run() {
             int used = static_cast<int>(end - start);
 
             maze.display(player.getX(), player.getY());
-            std::cout << "You escaped the maze!\n";
-            std::cout << "Total time used: " << used << " seconds\n";
+            cout << "You escaped the maze!"<<endl;
+            cout << "Total time used: " << used << " seconds"<<endl;
 
             std::ofstream log("record.txt", std::ios::app);
             if (log.is_open()) {
-                log << filename << " " << used << "\n";
+                log << filename << " " << used <<endl;
                 log.close();
             }
             else {
-                std::cout << "Failed to write record.\n";
+                cout << "Failed to write record."<<endl;
             }
 
             break;
