@@ -65,7 +65,7 @@ void showLeaderboard() {
     // 顯示所有有紀錄的迷宮
     cout << endl << "=== 排行榜（依地圖分類） ===" << endl;
     int index = 1;
-    std::vector<std::string> keys;
+    vector<string> keys;
     for (const auto& pair : recordMap) {
         cout << index++ << ". " << pair.first << endl;
         keys.push_back(pair.first);
@@ -73,7 +73,7 @@ void showLeaderboard() {
 
     cout << "請輸入要查看的地圖編號（0 返回）: ";
     int choice;
-    std::cin >> choice;
+    cin >> choice;
 
     if (choice == 0 || choice > (int)keys.size()) {
         cout << "返回主選單。" << endl;
@@ -98,7 +98,7 @@ int main() {
     int choice;
     while (true) {
         showMenu();
-        std::cin >> choice;
+        cin >> choice;
 
         if (choice == 1) {
             int difficulty;
@@ -108,7 +108,7 @@ int main() {
             game.run();
         }
         else if (choice == 2) {
-            std::cout << "遊戲結束，再見！\n";
+            cout << "遊戲結束，再見！"<<endl;
             break;
         }
         else if (choice == 3) {
@@ -119,7 +119,7 @@ int main() {
             showLeaderboard();
         }
         else {
-            std::cout << "無效選項，請重新輸入。\n";
+            cout << "無效選項，請重新輸入。"<<endl;
         }
     }
 
