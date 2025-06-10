@@ -1,7 +1,7 @@
 #include "Maze.h"
 #include <fstream>
 #include <iostream>
-
+using namespace std;
 
 Maze::Maze() : width(0), height(0), map(nullptr) {}
 
@@ -40,11 +40,11 @@ void Maze::display(int playerX, int playerY) {
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j) {
             if (i == playerX && j == playerY)
-                std::cout << '@'; 
+                cout << '@'; 
             else
-                std::cout << map[i][j];
+                cout << map[i][j];
         }
-        std::cout << '\n';
+        cout <<endl;
     }
 }
 
