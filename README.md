@@ -36,34 +36,45 @@
  record.txt      成功逃脫的記錄（自動生成） 
 
 ## UML
- 
+ ![image](https://github.com/user-attachments/assets/ea451f2b-a8c8-4c9d-aa4e-edbf5edde53d)
+
+
+
+
 ## 運行截圖
 
+
 開始執行的主選單
+
 ![image](https://github.com/user-attachments/assets/48887730-3abe-4125-b99e-bca571abdfd7)
 
 
 輸入3可閱讀遊戲說明
+
 ![image](https://github.com/user-attachments/assets/635fa5a0-6ca9-4a82-9a32-e4cadaee8511)
 
 
 回到主畫面後選擇開始遊戲
 輸入1開始遊戲可選擇難度或隨機
+
 ![image](https://github.com/user-attachments/assets/f7d92d8e-6877-46a3-b4e3-50027f7888a9)
 
 
 選擇最簡單的難度1
 最一開始在(11)，現實90秒
+
 ![image](https://github.com/user-attachments/assets/d8df3ab9-424e-4638-9e3d-a3c5e2e966a6)
 
 
 剩餘時間會顯示，牆壁(#)不可穿越
+
 ![image](https://github.com/user-attachments/assets/cc3972b1-7f9c-4b8d-88a5-78808dc81a2c)
 
 
 E為終點，即會停止倒數
 輸入4到排行榜
 可看到之前所有遊戲所運用的時間
+
 ![image](https://github.com/user-attachments/assets/1318435f-c8de-41fa-8f66-90ba816401ac)
 
 
