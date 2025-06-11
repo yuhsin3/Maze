@@ -57,6 +57,8 @@
 
 
 剩餘時間會顯示，牆壁(#)不可穿越
+![image](https://github.com/user-attachments/assets/cc3972b1-7f9c-4b8d-88a5-78808dc81a2c)
+
 
 E為終點，即會停止倒數
 輸入4到排行榜
