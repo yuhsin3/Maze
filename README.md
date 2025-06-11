@@ -35,6 +35,7 @@
  maze1.txt ~ 7   地圖檔（需放入同資料夾）        
  record.txt      成功逃脫的記錄（自動生成） 
 
+## UML
  
 ## 運行截圖
 
@@ -63,6 +64,8 @@
 E為終點，即會停止倒數
 輸入4到排行榜
 可看到之前所有遊戲所運用的時間
+![image](https://github.com/user-attachments/assets/1318435f-c8de-41fa-8f66-90ba816401ac)
+
 
 ## 分工
 陳宥芯  主題發想與確認、架構設計、程式開發、
