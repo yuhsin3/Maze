@@ -41,7 +41,7 @@
 開始執行的主選單
 ![image](https://github.com/user-attachments/assets/48887730-3abe-4125-b99e-bca571abdfd7)
 輸入3可閱讀遊戲說明
-
+![image](https://github.com/user-attachments/assets/635fa5a0-6ca9-4a82-9a32-e4cadaee8511)
 回到主畫面後選擇開始遊戲
 輸入1開始遊戲可選擇難度或隨機
 
