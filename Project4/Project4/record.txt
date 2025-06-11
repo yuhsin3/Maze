@@ -1,3 +1,0 @@
-maze1.txt 5
-maze2.txt 10
-maze3.txt 13
