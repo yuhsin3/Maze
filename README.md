@@ -7,7 +7,7 @@ Maze Escape Game（迷宮逃脫遊戲）
 
 
 
-#遊戲玩法
+## 遊戲玩法
 
 時間限制根據難度從 90 秒 ~ 30 秒不等
 迷宮為純文字檔，每關不同（支援最多 7 張）
@@ -16,7 +16,7 @@ Maze Escape Game（迷宮逃脫遊戲）
 
 
 
- #操作方式
+## 操作方式
 
  `W`  上移 
  `A`  左移
@@ -26,7 +26,7 @@ Maze Escape Game（迷宮逃脫遊戲）
 
 
 
-#檔案  說明    
+## 檔案說明    
 
  main.cpp        主選單、說明、排行榜邏輯      
  Game.h/cpp      管理遊戲流程與時間限制        
@@ -37,12 +37,12 @@ Maze Escape Game（迷宮逃脫遊戲）
 
 
 
-#分工
+## 分工
 陳宥芯  主題發想與確認、架構設計、程式開發、
         測試與除錯、主要簡報製作、簡報與文件整理、報告main及Game
 張峰榮  迷宮地圖製作、擴充功能建議、測試執行、報告Maze
 汪裕軒  簡報製作、報告Player
 
 
-#PPT連結
+## PPT連結
 https://www.canva.com/design/DAGlcjZkNXw/Ucg-C_xOXkdGOIdNtbYNow/edit?utm_content=DAGlcjZkNXw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
