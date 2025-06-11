@@ -35,3 +35,5 @@ Maze Escape Game（迷宮逃脫遊戲）
 張峰榮  迷宮地圖製作、擴充功能建議、測試
 汪裕軒  簡報製作
 
+#PPT連結
+https://www.canva.com/design/DAGlcjZkNXw/Ucg-C_xOXkdGOIdNtbYNow/edit?utm_content=DAGlcjZkNXw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
