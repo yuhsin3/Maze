@@ -35,6 +35,7 @@
  maze1.txt ~ 7   地圖檔（需放入同資料夾）        
  record.txt      成功逃脫的記錄（自動生成）     
 
+![image](https://github.com/user-attachments/assets/48887730-3abe-4125-b99e-bca571abdfd7)
 
 
 ## 分工
